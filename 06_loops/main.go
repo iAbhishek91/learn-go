@@ -17,9 +17,14 @@ func main() {
 
 	// fizzbuzz challenge - common interview questions
 	for i := 1; i <= 20; i++ {
-		if i%3 == 0 {
-			fmt.Println("i = %d, fizz", i)
+		if i%3 == 0 && i%5 == 0 {
+			fmt.Printf("i = %d, fizz-buzz\n", i)
+		} else if i%3 == 0 {
+			fmt.Printf("i = %d, fizz\n", i)
+		} else if i%5 == 0 {
+			fmt.Printf("i = %d, buzz\n", i)
+		} else {
+			continue
 		}
-
 	}
 }
