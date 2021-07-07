@@ -1,5 +1,7 @@
 # Go
 
+Each folder has docs embedded
+
 ## Workspace is important
 
 single workspace with below structure
