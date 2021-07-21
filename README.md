@@ -22,7 +22,7 @@ folder structure very opiniated
             - project-2
         - gitlab.com
     - pkg # for eg: go get github.com/aws-sdk-go/aws
-        - mod
+        - mod # downloaded packages are locally cached here
             - github.com
                 - aws-sdk-go@v1.39.1
     - bin

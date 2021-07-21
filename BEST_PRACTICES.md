@@ -2,6 +2,10 @@
 
 Reference: [youtube](https://www.youtube.com/watch?v=29LLRKIL_TI)
 
+## Naming convention
+
+[Naming conventions](https://www.digitalocean.com/community/tutorials/how-to-use-variables-and-constants-in-go)
+
 ## Not accepting interfaces
 
 Types(struct) can have both state and behaviour
